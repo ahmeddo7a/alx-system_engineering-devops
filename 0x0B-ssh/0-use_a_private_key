@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-chmod 600 ~/.ssh/school
 ssh ubuntu@280190-web-01 -i ~/.ssh/school
