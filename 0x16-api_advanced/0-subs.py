@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 """
-Function that query reddit api and return a number 
+function that queries reddit api and returns number
+of subs
 """
 import requests
 
+
 def number_of_subscribers(subreddit):
     """
-    function definition to gert number of subs
+    function definition of getting number of subs
     """
     url = f"https://api.reddit.com/r/{subreddit}/about"
     header = {'User-Agent': 'CustomClient/1.0'}
